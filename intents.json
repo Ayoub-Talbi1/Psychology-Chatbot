@@ -1,0 +1,253 @@
+{"intents": [
+    {
+        "tag": "greetings",
+        "patterns": ["hello", "hey", "hi", "good day", "greetings", "what's up?", "how is it going?"],
+        "responses": ["Hello!", "Hey!", "What can I do for you?"]
+    },
+    {
+        "tag": "goodbye",
+        "patterns": ["goodbye", "bye", "see you later", "farewell", "catch you later"],
+        "responses": ["Goodbye. Take care!", "Farewell, have a wonderful day!","bye!"]
+    },
+    {
+        "tag": "how-are-you",
+        "patterns": ["how are you?", "how's it going?", "how do you feel?", "what's up with you?"],
+        "responses": ["I'm just a chatbot, but thanks for asking! How can I assist you today?", "I'm here to help. What's on your mind?"]
+    },
+    {
+        "tag": "emotions",
+        "patterns": ["I'm feeling sad", "I'm happy", "I'm stressed", "I'm anxious", "I feel overwhelmed", "I'm excited"],
+        "responses": ["I'm here to listen. Tell me more about how you're feeling.", "It's okay to have these emotions. Let's talk about it."]
+    },
+    {
+        "tag": "tell-me-more",
+        "patterns": ["Tell me more", "Go on", "I'd like to hear more", "Please continue", "Share more"],
+        "responses": ["I'm here to listen. Feel free to share your thoughts and feelings.", "I'm all ears. Tell me more about it."]
+    },
+    {
+        "tag": "thank-you",
+        "patterns": ["Thank you", "Thanks", "Appreciate it", "You're helpful", "I'm grateful"],
+        "responses": ["You're welcome!", "I'm here to assist. If you have more to discuss, just let me know."]
+    },
+    {
+        "tag": "family",
+        "patterns": ["Tell me about family", "my family", "Family issues", "Family problems", "Family conflicts"],
+        "responses": ["Family can be a complex topic. How do you feel about your family?", "Let's talk about your family. What's on your mind?"]
+    },
+    {
+        "tag": "loneliness",
+        "patterns": ["I feel lonely", "I'm alone", "No one to talk to", "Lonely and isolated", "Isolation"],
+        "responses": ["I'm here for you. Loneliness can be tough. Let's discuss it.", "You're not alone now. How can I help you with your loneliness?"]
+    },
+    {
+        "tag": "stress-management",
+        "patterns": ["I'm stressed out", "How do I manage stress?", "What can I do to relax?", "Stress relief", "Stressed at work"],
+        "responses": ["Stress is common. Let's explore stress management techniques together.", "Let's work on reducing your stress. What helps you relax?"]
+    },
+    {
+        "tag": "goal-setting",
+        "patterns": ["How do I set goals?", "I don't know what to do with my life", "What's my purpose?", "Setting life goals", "Career goals"],
+        "responses": ["Goal setting is important. We can work on finding your purpose and setting achievable goals.", "Let's focus on your goals and purpose in life. Where would you like to start?"]
+    },
+    {
+        "tag": "self-esteem",
+        "patterns": ["I have low self-esteem", "I don't feel confident", "How can I boost my self-esteem?", "Building self-confidence", "Self-worth"],
+        "responses": ["Improving self-esteem is a journey. Let's start by talking about your strengths.", "Self-esteem can be built. What are your strengths and achievements?"]
+    },
+    {
+        "tag": "relationship",
+        "patterns": ["I'm having relationship issues", "My partner and I are fighting", "How can I improve my relationship?", "I feel distant from my partner"],
+        "responses": ["Relationships can be challenging. Let's talk about what's going on.", "I'm here to help with relationship concerns. Tell me more."]
+    },
+    {
+        "tag": "anxiety",
+        "patterns": ["I'm feeling anxious", "I have an anxiety disorder", "How can I manage anxiety?", "Anxious about the future"],
+        "responses": ["Anxiety is common. Let's explore strategies to cope with it.", "Let's work on managing your anxiety. What triggers it?"]
+    },
+    {
+        "tag": "depression",
+        "patterns": ["I'm depressed", "I have depression", "How can I overcome depression?", "Feeling hopeless"],
+        "responses": ["I'm here to provide support. Let's discuss your feelings and seek solutions.", "Depression can be challenging, but there are ways to improve your mental health."]
+    },
+    {
+        "tag": "stress-relief",
+        "patterns": ["How can I relax?", "I need stress relief techniques", "Ways to unwind after a tough day", "Stressed and overwhelmed"],
+        "responses": ["Stress relief is important for well-being. Let's explore relaxation methods.", "Let's work on reducing stress. What activities help you unwind?"]
+    },
+    {
+        "tag": "coping-mechanisms",
+        "patterns": ["How can I cope with difficult situations?", "Dealing with loss", "Coping with grief", "Handling tough times", "Managing stress at work"],
+        "responses": ["Coping mechanisms can make a difference. Let's discuss your specific challenges.", "You can develop effective coping strategies. Let's explore your options."]
+    },
+    {
+        "tag": "self-reflection",
+        "patterns": ["How can I become more self-aware?", "The importance of self-reflection", "Discovering oneself", "Self-improvement"],
+        "responses": ["Self-awareness is a valuable journey. Let's explore how to enhance it.", "Self-reflection can lead to personal growth. What aspects would you like to focus on?"]
+    },
+    {
+        "tag": "success",
+        "patterns": ["I want to be successful", "How can I achieve my goals?", "Overcoming obstacles", "Pursuing my dreams"],
+        "responses": ["Success is a great ambition. Let's work on a plan to help you reach your goals.", "I'm here to support your journey toward success. What's your vision of success?"]
+    },
+    {
+        "tag": "motivation",
+        "patterns": ["I lack motivation", "How can I stay motivated?", "Motivation tips", "Feeling demotivated"],
+        "responses": ["Maintaining motivation is important. Let's explore ways to stay inspired.", "We can work on boosting your motivation. What are your goals?"]
+    },
+    {
+        "tag": "mental-health",
+        "patterns": ["Mental health concerns", "I'm struggling with my mental health", "Seeking mental health support", "Coping with mental health issues"],
+        "responses": ["Mental health is significant. Let's discuss your concerns and find appropriate resources.", "It's essential to address mental health. How can I assist you in finding help?"]
+    },
+    {
+        "tag": "self-care",
+        "patterns": ["How can I practice self-care?", "The importance of self-care", "Balancing self-care and work", "Self-care routines"],
+        "responses": ["Self-care is vital for well-being. Let's create a self-care plan that works for you.", "Self-care is essential. What activities do you find rejuvenating?"]
+    },
+    {
+        "tag": "therapy",
+        "patterns": ["Should I consider therapy?", "Benefits of therapy", "Finding a therapist", "Therapy options"],
+        "responses": ["Therapy can be highly beneficial. Let's explore the possibilities and what you're comfortable with.", "Therapy is a valuable resource. How can I assist you in finding the right therapist?"]
+    },
+    {
+        "tag": "personal-growth",
+        "patterns": ["How can I grow as a person?", "Continuous self-improvement", "Personal development goals", "Unlocking potential"],
+        "responses": ["Personal growth is a lifelong journey. Let's discuss your goals and the steps to achieve them.", "Personal development is a worthy pursuit. What areas of your life would you like to enhance?"]
+    },
+    {
+        "tag": "stress-at-school",
+        "patterns": ["I'm stressed about school", "Academic stress", "Balancing school and life", "Managing coursework"],
+        "responses": ["School stress is common. Let's explore strategies to manage academic pressures.", "Balancing school and life can be challenging. How can I assist you in reducing stress related to your studies?"]
+    },
+    {
+        "tag": "phobias",
+        "patterns": ["I have a phobia", "Overcoming phobias", "How to deal with specific fears", "Phobia treatment"],
+        "responses": ["Phobias can be distressing. Let's discuss exposure therapy and other techniques to manage them.", "Overcoming phobias is possible with the right approach. Tell me more about your specific fear."]
+    },
+    {
+        "tag": "loneliness-coping",
+        "patterns": ["How can I cope with loneliness?", "Lonely and isolated", "Dealing with social isolation", "Overcoming loneliness"],
+        "responses": ["Coping with loneliness is important. Let's explore ways to connect with others.", "Loneliness can be challenging, but there are strategies to combat it. How do you currently cope with it?"]
+    },
+    {
+        "tag": "anger-management",
+        "patterns": ["I have trouble managing my anger", "Anger issues", "How can I control my temper?", "Dealing with anger outbursts"],
+        "responses": ["Anger management is essential. Let's discuss techniques to handle your anger constructively.", "Learning to manage anger is a valuable skill. What situations trigger your anger?"]
+    },
+    {
+        "tag": "trauma-recovery",
+        "patterns": ["I've experienced trauma", "Recovering from trauma", "Coping with traumatic events", "Seeking help after trauma"],
+        "responses": ["Recovering from trauma is a process. Let's talk about your experiences and how to heal.", "Trauma recovery is possible with the right support. Would you like to share your story?"]
+    },
+    {
+        "tag": "overcoming-addiction",
+        "patterns": ["I'm struggling with addiction", "How to overcome addiction", "Addiction recovery resources", "Finding sobriety"],
+        "responses": ["Overcoming addiction is a challenging journey. Let's explore treatment and recovery options.", "Seeking help for addiction is a brave step. How can I support you on your path to recovery?"]
+    },
+    {
+        "tag": "work-life-balance",
+        "patterns": ["I'm overwhelmed with work", "Balancing work and personal life", "Work-life harmony", "Reducing work-related stress"],
+        "responses": ["Achieving work-life balance is crucial for well-being. Let's discuss strategies to manage your workload.", "Balancing work and personal life is a common challenge. How can I assist you in achieving a healthier equilibrium?"]
+    },
+    {
+        "tag": "social-anxiety",
+        "patterns": ["I struggle with social anxiety", "Overcoming social anxiety", "Coping in social situations", "Anxious in social settings"],
+        "responses": ["Social anxiety can be tough, but there are techniques to build confidence. Let's explore them.", "Overcoming social anxiety is possible. What situations trigger your anxiety?"]
+    },
+    {
+        "tag": "positive-thinking",
+        "patterns": ["How can I develop a more positive mindset?", "Positive thinking techniques", "Cultivating optimism", "Shifting to a positive outlook"],
+        "responses": ["Positive thinking can improve your well-being. Let's explore exercises to shift your mindset.", "Cultivating optimism is a worthwhile endeavor. What areas of your life do you want to make more positive?"]
+    },
+    {
+        "tag": "cyber bullying",
+        "patterns": ["I get bullied by a guy in the social media", "Cyber bullying", "I keep seeing memes on the web bullying me", "A guy keeps attacking me in messages"],
+        "responses": ["Ignore them.Cyberbullies who do not get a response from their target may just move on. They are looking for a response— don’t give it to them!", "Call the police. If you feel your safety (or the safety of someone else) is in danger, call the police immediately. You can with our juridic chatbot and he can help you figure out the laws that protects you."]
+    },
+    {
+        "tag": "Sexual Harassment Online",
+        "patterns": ["I've been receiving sexually explicit messages online", "Online sexual harassment", "Someone is sharing my private photos without consent", "I'm being targeted with lewd comments on social media"],
+        "responses": ["Block the perpetrator. Use the platform's blocking and reporting features to prevent further communication from the harasser.", "Document the evidence. Take screenshots or save messages as evidence in case you need to involve law enforcement.", "Consider legal action. In many jurisdictions, online sexual harassment is a crime. Consult a lawyer or legal authority for guidance."]
+    },
+    {
+        "tag": "Revenge Porn",
+        "patterns": ["My ex is sharing explicit photos of me online", "Revenge porn", "I need help removing intimate content from the internet", "My privacy has been violated online"],
+        "responses": ["Report to the platform. Most social media platforms and websites have policies against revenge porn. Report the content for removal.", "Contact a helpline. Reach out to organizations specializing in revenge porn removal to assist you in getting the content taken down.", "Legal recourse. Seek legal advice to explore potential legal action against the person responsible."]
+    },
+    {
+        "tag": "Cyberstalking",
+        "patterns": ["I'm being followed online by someone", "Cyberstalking", "I feel threatened by an online individual", "Someone is tracking my online activities"],
+        "responses": ["Maintain privacy settings. Adjust your online privacy settings to limit what personal information is accessible to others.", "Collect evidence. Keep records of any threatening or harassing messages. This can be crucial if you need to involve authorities.", "Report to the police. If you feel physically threatened, contact your local law enforcement agency and share the evidence you've collected."]
+    },
+    {
+        "tag": "Harassment in Online Gaming",
+        "patterns": ["I'm being harassed in an online game", "Online gaming harassment", "Constant in-game insults and threats", "I'm afraid to voice chat due to harassment"],
+        "responses": ["Mute or block the harasser. Most online games have mute or block features to protect yourself from harassment.", "Report to game moderators. Contact the game's moderators or administrators to report the harasser's behavior.", "Consider changing usernames. Sometimes, using a different username can help reduce targeted harassment."]
+    },
+    {
+        "tag": "Catfishing",
+        "patterns": ["I suspect someone is catfishing me online", "Catfishing", "I've been deceived by someone's online identity", "Online relationship seems too good to be true"],
+        "responses": ["Protect your personal information. Be cautious about sharing personal information with online acquaintances.", "Verify identities. Use video calls or other methods to verify the person's identity if you suspect catfishing.", "Terminate contact. If you discover you're being catfished, cut off contact to protect yourself from potential harm or deception."]
+    },
+    {
+        "tag": "Online Harassment",
+        "patterns": ["I'm facing online harassment from multiple individuals", "Online harassment is affecting my mental health", "I receive threatening messages on various platforms", "How can I deal with persistent online harassment?"],
+        "responses": ["Limit online exposure. Reduce your online presence or temporarily deactivate social media accounts to minimize contact with harassers.", "Seek support. Talk to friends, family, or a mental health professional for emotional support and coping strategies.", "Contact a crisis helpline. Reach out to crisis helplines or support organizations that specialize in cyber harassment for guidance."]
+    },
+    {
+        "tag": "Doxxing and Privacy Invasion",
+        "patterns": ["My personal information has been doxxed online", "I'm a victim of privacy invasion", "Strangers have posted my address and phone number online", "How can I protect my personal information online?"],
+        "responses": ["Remove personal information. Request the removal of your personal details from websites where they are published.", "Change passwords and secure accounts. Strengthen the security of your online accounts and enable two-factor authentication.", "Consider legal action. Consult with an attorney to explore potential legal recourse against those responsible for doxxing."]
+    },
+    {
+        "tag": "Teen Cyberbullying",
+        "patterns": ["My child is being cyberbullied", "Teen cyberbullying prevention", "My teenager is afraid to go online due to bullies", "How can I help my child cope with online bullying?"],
+        "responses": ["Talk to your child. Open a dialogue with your teenager about their online experiences and provide a supportive environment for discussion.", "Encourage reporting. Teach your child to report cyberbullying to school authorities and, if necessary, to law enforcement.", "Promote online safety. Educate your child about privacy settings, blocking, and reporting features on social media platforms."]
+    },
+    {
+        "tag": "Online Hate Speech",
+        "patterns": ["I've encountered hate speech online", "Online hate speech is affecting my mental well-being", "How can I combat hate speech on social media?", "What actions can be taken against online hate speech?"],
+        "responses": ["Report to the platform. Use the reporting features on social media platforms to flag and report hate speech.", "Counter with positivity. Respond to hate speech with positive messages or facts to combat the negativity.", "Support anti-hate campaigns. Engage with organizations and campaigns dedicated to combating online hate speech and promoting tolerance."]
+    },
+    {
+        "tag": "Support and Self-Care",
+        "patterns": ["I'm struggling to cope with cyber violence", "Self-care after online abuse", "How can I regain confidence after being cyberbullied?", "Seeking emotional support after online harassment"],
+        "responses": ["Reach out for help. Talk to a therapist, counselor, or support group to process your feelings and experiences.", "Practice self-care. Engage in activities that promote mental and emotional well-being, such as meditation, exercise, and creative hobbies.", "Stay informed. Learn about resources and organizations that can provide guidance and assistance for victims of cyber violence."]
+    },
+    {
+        "tag": "Online Trolling",
+        "patterns": ["I'm dealing with persistent online trolls", "How to handle online trolls", "Trolls are disrupting online discussions", "How can I protect my mental health from trolls?"],
+        "responses": ["Don't engage. Avoid responding to trolls, as this is often what they seek. Ignoring them can discourage their behavior.", "Report and block. Use platform tools to report and block users who engage in trolling.", "Create a positive online environment. Encourage constructive and respectful discussions to counteract trolling behavior."]
+    },
+    {
+        "tag": "Online Scams",
+        "patterns": ["I suspect an online scam", "I received a suspicious email or message", "How can I avoid falling for online scams?", "What should I do if I've been scammed online?"],
+        "responses": ["Verify sources. Double-check the legitimacy of messages, links, and offers before providing personal or financial information.", "Educate yourself. Stay informed about common online scams and their warning signs to protect yourself.", "Report to authorities. If you've fallen victim to a scam, report it to law enforcement and financial institutions."]
+    },
+    {
+        "tag": "Social Media Safety",
+        "patterns": ["I'm concerned about my safety on social media", "How to safeguard my privacy on social networks", "I want to prevent cyberbullying on social media", "What measures can I take to enhance my social media safety?"],
+        "responses": ["Adjust privacy settings. Review and tighten your social media privacy settings to control who can view your content and interact with you.", "Be selective with friend/follower requests. Only connect with people you know and trust on social media.", "Monitor online activity. Regularly review your social media accounts for any suspicious or harmful content."]
+    },
+    {
+        "tag": "Online Hate Groups",
+        "patterns": ["I've come across online hate groups", "How can I report online hate groups?", "Protecting against hate group recruitment", "What actions can be taken against online hate groups?"],
+        "responses": ["Report to authorities. Notify law enforcement agencies about the existence and activities of hate groups, especially if they pose a threat.", "Raise awareness. Share information about online hate groups to educate others and counteract their influence.", "Support anti-hate organizations. Engage with organizations working to combat online hate and extremism."]
+    },
+    {
+        "tag": "Online Impersonation",
+        "patterns": ["Someone is impersonating me online", "Online identity theft", "I need help removing a fake profile with my name", "What can I do about online impersonation?"],
+        "responses": ["Report impersonation. Contact the platform and report the fake profile or impersonation.", "Gather evidence. Collect evidence of the impersonation, such as screenshots or links to the fake profiles.", "Consult with a lawyer. Seek legal advice with our juridic chatbot to explore options for taking legal action against the impersonator."]
+    },
+    {
+        "tag": "Online Propaganda and Misinformation",
+        "patterns": ["I'm concerned about online propaganda", "Combatting misinformation on social media", "How can I verify information online?", "Taking action against online disinformation"],
+        "responses": ["Fact-check information. Use fact-checking websites and tools to verify the accuracy of online content.", "Report fake news. Report false or misleading information on social media platforms and news outlets.", "Educate others. Share critical thinking skills and resources with friends and family to help them recognize disinformation."]
+    },
+    {
+        "tag": "Online Dating Safety",
+        "patterns": ["I'm using online dating apps and want to stay safe", "Online dating safety tips", "How can I protect myself while online dating?", "Recognizing red flags in online dating"],
+        "responses": ["Meet in public places. Always choose public locations for your first meetings with online dates.", "Trust your instincts. If something feels off, take it seriously and consider ending the interaction.", "Share your plans. Inform a trusted friend or family member about your date and whereabouts as a safety precaution."]
+    }
+    
+]}
